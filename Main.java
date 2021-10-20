@@ -20,6 +20,7 @@ public class Main
 
 
         can.Open();
+	    
         if(can.isOpen())
         {
             System.out.println("The can is open!");
@@ -29,6 +30,7 @@ public class Main
             System.out.println("The can is closed!");
         }
         can.Close();
+	    
         if(can.isOpen())
         {
             System.out.println("The can is open!");
